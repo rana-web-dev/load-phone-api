@@ -10,11 +10,10 @@
   <body>
     <div class="main">
       <header>
-        <h4>Welcome to my Phone Hunter!</h4>
+        <h4>Search your favorite phone.</h4>
       </header>
       <main class="container">
-        <input type="text" placeholder="Apple Samsung" />
-        <button class="btn">Search</button>
+        <input onkeyup="searchPhones()" type="text" placeholder="Apple Samsung ..." />
       </main>
       <div class="phones"></div>
       <div class="not-found">
