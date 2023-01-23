@@ -16,6 +16,7 @@ header h4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    margin-top: 30px;
 }
 .container input {
     width: 400px;
@@ -36,4 +37,11 @@ header h4 {
     text-align: center;
     color: red;
     margin: 50px 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+    .main .phones {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
